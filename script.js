@@ -51,10 +51,8 @@ function displayProducts(products) {
  `
     });
 }
-function filterCategory() {
-    const filter = products.filter(product => products.category)
 
-}
-// displaycategory.addEventListener("click", filterCategory(){
-
-// })
+displaycategory.addEventListener("click", function(){
+ const filter = products.filter(product => products.category)
+displaycategory.innerHTML
+})
